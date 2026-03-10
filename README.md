@@ -38,23 +38,23 @@ cd vibe-analyzer-20-main
 
 2. Install dependencies:
 ```bash
-nmp install
+bun install
 ```
 
 3. Start the development server:
 ```bash
-nmp run dev
+bun run dev
 ```
 
 The application will be available at `http://localhost:5173`
 
 ## Available Scripts
 
-- `nmp run dev` - Start development server with hot reload
-- `nmp run build` - Build for production
-- `nmp run build:dev` - Build in development mode
-- `nmp run lint` - Run ESLint checks
-- `nmp run preview` - Preview production build locally
+- `bun run dev` - Start development server with hot reload
+- `bun run build` - Build for production
+- `bun run build:dev` - Build in development mode
+- `bun run lint` - Run ESLint checks
+- `bun run preview` - Preview production build locally
 
 ## Project Structure
 
@@ -83,29 +83,16 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 This project is open source and available under the MIT License.
 
+## Documentation
+
+Comprehensive documentation is available in the `/docs` folder:
+
+- **[Setup Guide](docs/SETUP.md)** - Installation and configuration
+- **[Architecture](docs/ARCHITECTURE.md)** - Project structure and design patterns
+- **[Features](docs/FEATURES.md)** - Detailed feature documentation
+- **[API Reference](docs/API_REFERENCE.md)** - Component and API documentation
+- **[Contributing](docs/CONTRIBUTING.md)** - How to contribute to the project
+
 ## Support
 
 For issues, questions, or suggestions, please open an issue on GitHub.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/34180417-6f07-4d76-979f-01c3c9cae581) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
