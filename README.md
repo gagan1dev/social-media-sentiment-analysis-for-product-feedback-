@@ -38,23 +38,23 @@ cd vibe-analyzer-20-main
 
 2. Install dependencies:
 ```bash
-bun install
+nmp install
 ```
 
 3. Start the development server:
 ```bash
-bun run dev
+nmp run dev
 ```
 
 The application will be available at `http://localhost:5173`
 
 ## Available Scripts
 
-- `bun run dev` - Start development server with hot reload
-- `bun run build` - Build for production
-- `bun run build:dev` - Build in development mode
-- `bun run lint` - Run ESLint checks
-- `bun run preview` - Preview production build locally
+- `nmp run dev` - Start development server with hot reload
+- `nmp run build` - Build for production
+- `nmp run build:dev` - Build in development mode
+- `nmp run lint` - Run ESLint checks
+- `nmp run preview` - Preview production build locally
 
 ## Project Structure
 
