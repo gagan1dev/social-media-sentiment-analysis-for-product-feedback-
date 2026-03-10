@@ -1,53 +1,91 @@
-# Welcome to your Lovable project
+# Social Media Sentiment Analysis for Product Feedback
 
-## Project info
+A modern web application for analyzing customer sentiment from social media and product reviews. Extract insights from feedback data, track sentiment trends, and identify key problem areas to improve product decisions.
 
-**URL**: https://lovable.dev/projects/34180417-6f07-4d76-979f-01c3c9cae581
+## Features
 
-## How can I edit this code?
+- **Sentiment Analysis** - Analyze sentiment from customer reviews and social media feedback
+- **CSV Data Upload** - Easily import feedback data from CSV files
+- **Visual Analytics** - Interactive charts and dashboards for sentiment insights
+- **Weekly Trends** - Track sentiment changes over time with trend analysis
+- **Problem Identification** - Automatically identify and categorize common issues from feedback
+- **Report Export** - Generate and export analysis reports
+- **User Authentication** - Secure login and role-based access (Admin & User roles)
+- **Admin Dashboard** - Comprehensive administration panel for system management
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **State Management**: React Context API
+- **Form Handling**: React Hook Form
+- **Package Manager**: Bun
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/34180417-6f07-4d76-979f-01c3c9cae581) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
+- Node.js 16+ or Bun installed
+- Git
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/gagan1dev/social-media-sentiment-analysis-for-product-feedback-.git
+cd vibe-analyzer-20-main
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+bun run dev
+```
 
-**Use GitHub Codespaces**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
+## Available Scripts
+
+- `bun run dev` - Start development server with hot reload
+- `bun run build` - Build for production
+- `bun run build:dev` - Build in development mode
+- `bun run lint` - Run ESLint checks
+- `bun run preview` - Preview production build locally
+
+## Project Structure
+
+```
+src/
+├── components/     # React components (Charts, Upload, Analysis, etc.)
+├── pages/         # Page components (Dashboard, Admin, Login, etc.)
+├── auth/          # Authentication logic and protected routes
+├── hooks/         # Custom React hooks
+├── types/         # TypeScript type definitions
+└── lib/           # Utility functions
+```
+
+## Authentication
+
+The application includes:
+- **Login System** - User and admin authentication
+- **Role-based Access** - Different permissions for users and admins
+- **Protected Routes** - Secure pages requiring authentication
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature suggestions.
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Support
+
+For issues, questions, or suggestions, please open an issue on GitHub.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
